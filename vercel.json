@@ -6,6 +6,9 @@
     }
   },
   "routes": [
-    { "src": "/twilio-handler", "dest": "/api/index.js" }
+    {
+      "src": "/twilio-handler",
+      "dest": "api/index.js"
+    }
   ]
 }
